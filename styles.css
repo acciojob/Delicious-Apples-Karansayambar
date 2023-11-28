@@ -1,1 +1,80 @@
 /* your code here */
+body{
+	background-color:rgb(16,227,127);
+	margin-left:150px;
+}
+.product{
+	display:flex;
+	align-item:center;
+	justify-content:center;
+	background:white;
+	position:relative;
+	width:700px;
+}
+.product__info{
+	text-align:start;
+	background:white;
+}
+.title > span{
+	opacity:0.5;
+}
+.price{
+	color:red;
+}
+.price > span{
+	color:red;
+	font-size:35px;
+}
+.head{
+	font-size:15px;
+	opacity:0.5;
+}
+.variant > ul > li{
+	list-style :none;
+}
+.variant > ul{
+	display:flex;
+}
+.variant > ul > li:first-child {
+	border:1px solid black;
+}
+button{
+	background:rgb(254,63,64);
+	padding:15px;
+	color:white;
+	letter-spacing:3px;
+	border-radius:5px;
+	border:none;
+}
+.photo-main{
+	background:rgb(174,231,49);
+	color:white;
+	position:relative;
+}
+.photo-container{
+	margin:40px 0px 40px 0px;
+	position:relative;
+	left:-80px;
+	border-radius:5px;
+	background:white;
+	box-shadow:0px 8px 10px 0px gray;
+}
+.photo-main > img{
+	position:relative;
+	left:-50px;
+}
+.photo-album > ul{
+	display:flex;
+	padding:20px;
+}
+.photo-album > ul > li{
+	list-style:none;
+	border:1px solid black;
+	margin-inline:10px;
+	padding:5px;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
